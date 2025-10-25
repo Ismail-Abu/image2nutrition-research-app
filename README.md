@@ -43,5 +43,5 @@ Scripts from other nutrition tools
 Notes on what we’re keeping, changing, or remixing
 
 Only our team can see it for now, but it’s helping shape how the app works. 
-**When its done this will be made public!**
+**When the research is concluded this will be made public!**
  
