@@ -33,14 +33,15 @@ The usability of the app interface across diverse users and meals
 ## Prototype Data Repo
 
 We’re using a separate private repo to keep track of all the data and examples from other apps and projects that are helping us build this one. 
-It’s basically a space to collect anything useful — datasets, scripts, and notes about them, that push the app forward faster.
+It’s basically a space to collect anything useful  datasets, scripts, and notes about them, that push the app forward faster.
 
- https://github.com/Ismail-Abu/image2nutrition-research-data*(private)*
+https://github.com/Ismail-Abu/image2nutrition-research-data*(private)*
 
 This includes stuff like:
 Datasets we’re testing 
 Scripts from other nutrition tools
 Notes on what we’re keeping, changing, or remixing
 
-Only our team can see it for now, but it’s helping shape how the app works.
+Only our team can see it for now, but it’s helping shape how the app works. 
+**When its done this will be made public!**
  
