@@ -58,7 +58,7 @@ The usability of the app interface across diverse users and meals
 
 **2025-10-26** — Added [Food-Image-Recognition](https://github.com/Pralhad789/Food-Image-Recognition/blob/main/README.md)  
 **Purpose:** Full-stack app for food recognition and nutrition breakdown  
-**Notes:** This is the best repo I’ve seen so far. It breaks down everything clearly and gives the developer full control over behavior. It could be a strong foundation to build on. If we find nothing better, this might be our starting point — and from there, we can improve or customize as needed.
+**Notes:** This is the best repo I’ve seen so far. It breaks down everything clearly and gives the developer full control over behavior. It could be a strong foundation to build on. If we find nothing better, this might be our starting point - and from there, we can improve or customize as needed.
 
 ---
 
