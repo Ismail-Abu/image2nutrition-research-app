@@ -30,18 +30,43 @@ The usability of the app interface across diverse users and meals
 
 --- 
 
-## Prototype Data Repo
+##  Developer Notes / Data Section
 
-We’re using a separate private repo to keep track of all the data and examples from other apps and projects that are helping us build this one. 
-It’s basically a space to collect anything useful  datasets, scripts, and notes about them, that push the app forward faster.
+**2025-10-24** — Added [Nutrition5k](https://github.com/naruto36516/Nutrition5k)  
+**Purpose:** Base dataset for food image recognition and nutrition  
+**Notes:** This seems useful. We can use this to get a basic idea of how some people have started capturing data and saving it.
 
-https://github.com/Ismail-Abu/image2nutrition-research-data*(private)*
+---
 
-This includes stuff like:
-Datasets we’re testing 
-Scripts from other nutrition tools
-Notes on what we’re keeping, changing, or remixing
+**2025-10-25** — Added [react-native-vision-camera](https://github.com/mrousavy/react-native-vision-camera)  
+**Purpose:** A camera module with built-in pipelines for various tasks, usable on both iOS and Android  
+**Notes:** This seems like a great way to collect images and feed them into our recognition pipeline. It allows users to take pictures and integrates well with our planned flow.
 
-Only our team can see it for now, but it’s helping shape how the app works. 
-**When the research is concluded this will be made public!**
- 
+---
+
+**2025-10-26** — Added [expo-image-picker](https://github.com/expo/expo/blob/main/packages/expo-image-picker/README.md)  
+**Purpose:** Enables image selection from the camera roll on both Android and iOS  
+**Notes:** We needed more ways to grab data beyond just live capture. This will let users upload existing images, which is great for flexibility.
+
+---
+
+**2025-10-26** — Added [passio-nutrition-flutter-app](https://github.com/vtrukhnov-lab/passio-nutrition-flutter-app)  
+**Purpose:** A full frontend and backend app that performs similar tasks to our research goals  
+**Notes:** This is a great reference for behavior and structure. It seems configurable, and we might be able to adapt parts of it to improve our own app. Honestly, this could be a viable base to study and build from.
+
+---
+
+**2025-10-26** — Added [Food-Image-Recognition](https://github.com/Pralhad789/Food-Image-Recognition/blob/main/README.md)  
+**Purpose:** Full-stack app for food recognition and nutrition breakdown  
+**Notes:** This is the best repo I’ve seen so far. It breaks down everything clearly and gives the developer full control over behavior. It could be a strong foundation to build on. If we find nothing better, this might be our starting point — and from there, we can improve or customize as needed.
+
+---
+
+**2025-10-28** — Started experimenting with Flutter  
+**Notes:** I’ve been messing around with Flutter to see how we can personalize the apps we might use. It reminds me of Java in some ways, and honestly, I think I’ll take 5–7 days to understand it fully. Once I get a good grasp, I’ll be able to look at these repos and understand what they’re doing — and from there, implement similar logic in our project.
+
+I’m also reviewing the CNNs used in these apps to see how we can integrate RAG/SAG without heavy coding. Most repos already output macronutrients, so I think we can wrap those outputs with RAG/SAG logic and feed that into the model. That should give us the breakdown we want without needing to retrain or rebuild from scratch.
+
+
+
+
